@@ -8,5 +8,5 @@ We’ll store this information in a SQLite database. Instead of using the [`reco
 `pip install -U dataset`
 
 > Not a Full ORM
-
+> 
 > Note that dataset does not want to replace a full-blown ORM (Object Relational Mapping) library like [SQLAlchemy](https://www.sqlalchemy.org/) (even though it uses [SQLAlchemy](https://www.sqlalchemy.org/) behind the scenes). It’s meant simply to quickly store a bunch of data in a database without having to define a schema or write SQL. For more advanced use cases, it’s a good idea to consider using a true ORM library or to define a database schema by hand and query it manually.

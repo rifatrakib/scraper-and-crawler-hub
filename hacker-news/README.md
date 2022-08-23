@@ -1,4 +1,4 @@
-## Hacker News (Scraper)
+## Hacker News Scraper
 
 ### Non-API version ([`hacker_news_scraper.py`](https://github.com/rifatrakib/scraper-and-crawler-hub/blob/master/hacker-news/hacker_news_scraper.py))
 

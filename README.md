@@ -13,3 +13,5 @@ This repository includes several examples of web scrapers and crawlers which ser
 * __Scraping GitHub Stars__: This example uses [`requests`](https://requests.readthedocs.io/en/latest/) and [`Beautiful Soup`](https://beautiful-soup-4.readthedocs.io/en/latest/) to scrape [`GitHub`](https://github.com/) repositories and show how you can perform a login using [`requests`](https://requests.readthedocs.io/en/latest/), reiterating our warnings regarding legal concerns.
 
 * __Scraping Mortgage Rates__: This example uses requests to scrape mortgage rates using a particularly tricky site.
+
+* __Scraping and Visualizing IMDB Ratings__: This example uses [`requests`](https://requests.readthedocs.io/en/latest/) and [`Beautiful Soup`](https://beautiful-soup-4.readthedocs.io/en/latest/) to get a list of [`IMDB`](https://www.imdb.com/) ratings for TV series episodes. We also introduce the [`matplotlib`](https://matplotlib.org/) library to create plots in Python.

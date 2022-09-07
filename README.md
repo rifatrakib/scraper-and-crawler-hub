@@ -15,3 +15,5 @@ This repository includes several examples of web scrapers and crawlers which ser
 * __Scraping Mortgage Rates__: This example uses requests to scrape mortgage rates using a particularly tricky site.
 
 * __Scraping and Visualizing IMDB Ratings__: This example uses [`requests`](https://requests.readthedocs.io/en/latest/) and [`Beautiful Soup`](https://beautiful-soup-4.readthedocs.io/en/latest/) to get a list of [`IMDB`](https://www.imdb.com/) ratings for TV series episodes. We also introduce the [`matplotlib`](https://matplotlib.org/) library to create plots in Python.
+
+* __Scraping IATA Airline Information__: This example uses [`requests`](https://requests.readthedocs.io/en/latest/) and [`Beautiful Soup`](https://beautiful-soup-4.readthedocs.io/en/latest/) to scrape airline information from a site that employs a difficult web form. An alternative approach using [`Selenium`](https://www.selenium.dev/) is also provided. Scraped results are converted to a tabular format using the [`pandas`](https://pandas.pydata.org/) library, also introduced in this example.

@@ -21,6 +21,11 @@ for inp in form.find_all(["input", "select"]):
     value = inp.get("value")
     if not name:
         continue
+    if "ddlImLookingFor" in name:
+        value = "ByAirlineName"
+    if "txtSearchCriteria" in name:
+        value = "Lufthansa"
     data[name] = value if value else ""
 
-print(data, end='\n\n\n')
+r = session.post(url, data=data)
+print(r.text)
